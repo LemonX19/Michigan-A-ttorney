@@ -1,0 +1,75 @@
+.box1{
+    background-color: lightblue;
+    color:white;
+    margin-left:40px;
+    margin-right:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    ;
+}
+
+.box2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0;
+    margin-left:40px;
+    margin-right:300px;
+}
+
+.box3 li{
+    list-style: none;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left:40px;
+    display:inline;
+}
+
+head{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+nav{
+    background-color: skyblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 40px;  
+}  
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a.active,a:hover{
+    background: lightskyblue;
+    transition:0.5s;
+}
+
+.formheader{
+    background-image: linear-gradient(90deg, red, blue);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 3px;
+}
